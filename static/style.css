@@ -58,6 +58,14 @@ nav a:hover {
     color: #887054;
     background-color: #fdfdfd;
 }
+#services-box, #gallery-box, #about-box {
+    background-color: #fdfdfd;
+    border-radius: 2px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 20px;
+}
 .services, .about, .testimonials, .gallery, .contact {
     padding: 50px 20px;
     text-align: center;
@@ -201,5 +209,12 @@ footer {
 @media (max-width: 360px) {
     nav a {
         padding: 1px;
+    }
+}
+
+@media (min-width: 768px) {
+    .about {
+        width: 50%;
+        margin: 0 auto;
     }
 }
